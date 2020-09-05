@@ -9,6 +9,12 @@ public class Terrestre extends MeioDeTransporte {
 		super();
 	}
 
+	public Terrestre(int qtdeRodas, double potencia) {
+		super();
+		this.qtdeRodas = qtdeRodas;
+		this.potencia = potencia;
+	}
+
 	public Terrestre(int id, short ano, String modelo, double carga_maxima, int qtdeRodas, double potencia) {
 		super(id, ano, modelo, carga_maxima);
 		this.qtdeRodas = qtdeRodas;
