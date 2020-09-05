@@ -6,14 +6,14 @@ public interface DaoCliente {
 
 	public static Cliente cliente = new Cliente();
 
-	Cliente incluir(Cliente cliente);
+	public Cliente incluir(Cliente cliente);
 
-	void excluir(Integer id);
+	public void excluir(Integer id);
 
-	Cliente alterar(Cliente cliente);
+	public Cliente alterar(Cliente cliente);
 
-	ArrayList<Cliente> listar();
+	public ArrayList<Cliente> listar();
 
-	Cliente get();
+	public Cliente get();
 
 }

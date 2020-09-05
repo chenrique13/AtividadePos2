@@ -4,7 +4,7 @@ import com.sun.jdi.connect.spi.Connection;
 
 public interface Conexao {
 
-	Connection conectar();
-	void desconectar(Connection con);
+	public Connection conectar();
+	public void desconectar(Connection con);
 	
 }
